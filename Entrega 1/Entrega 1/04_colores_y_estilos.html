@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 04 - Colores y estilos</title> 
+
+    <style>
+      /* TODO 1: Color de fondo suave */
+      body {
+        background-color: #f2f2f2;
+      }
+
+      /* TODO 2: Todos los h1 centrados y verdes */
+      h1 {
+        text-align: center;
+        color: green;
+      }
+
+      /* TODO 3: Todos los párrafos con Verdana, 16px y justificados */
+      p {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 16px;
+        text-align: justify;
+      }
+
+      /* RETO: Diseño de la tarjeta */
+      .tarjeta {
+        background-color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Probando colores</h1>
+
+    <!-- TODO 4: Color azul mediante nombre -->
+    <p style="color: blue;">Color mediante nombre.</p>
+
+    <!-- TODO 5: Color hexadecimal -->
+    <p style="color: #dc3d1d;">Color hexadecimal.</p>
+
+    <!-- TODO 6: Color RGB -->
+    <p style="color: rgb(95, 233, 55);">Color RGB.</p>
+
+    <!-- TODO 7: Color HSL -->
+    <p style="color: hsl(298, 76%, 56%);">Color HSL.</p>
+
+    <!-- TODO 8: Fondo de color -->
+    <p style="background-color: lightblue;">
+      Párrafo con fondo de color.
+    </p>
+
+    <!-- TODO 9: Párrafo azul con una palabra roja y en negrita -->
+    <p style="color: blue;">
+      Este párrafo es azul y esta palabra es
+      <span style="color: red; font-weight: bold;">roja</span>.
+    </p>
+
+    <!-- RETO: Tarjeta -->
+    <div class="tarjeta">
+      <h2>Mi tarjeta</h2>
+
+      <p style="color: #dc3d1d;">
+        Esta es mi primera tarjeta usando colores HEX.
+      </p>
+
+      <p style="color: rgb(50, 100, 200);">
+        Estoy aprendiendo a utilizar CSS para dar estilo a mis páginas web.
+      </p>
+    </div>
+
+  </body>
+
+</html>
+

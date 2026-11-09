@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica 06 - Enlaces</title>
+        <style>
+            section {
+                margin-top: 120px;
+            }
+        </style>
+    </head>
+
+    <body id="inicio">
+
+        <h1>Guía rápida de recursos web</h1>
+
+        <!-- TODO 1: Enlace absoluto a Google -->
+        <p>
+            <a href="https://www.google.es">Ir a Google</a>
+        </p>
+
+        <!-- TODO 2: Abrir Google en una pestaña nueva -->
+        <p>
+            <a href="https://www.google.es" target="_blank" rel="noopener noreferrer">
+                Abrir Google en una pestaña nueva
+            </a>
+        </p>
+
+        <!-- TODO 3: Enlace con atributo title -->
+        <p>
+            <a href="https://www.google.es" title="Buscador Google">
+                Google con descripción
+            </a>
+        </p>
+
+        <!-- TODO 4: Enlace relativo -->
+        <p>
+            <a href="05_listas.html">Ir a la práctica 05 - Listas</a>
+        </p>
+
+        <!-- TODO 5: Menú con enlaces internos -->
+        <h2>Menú de navegación</h2>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#navegadores">Navegadores</a></li>
+        </ul>
+
+        <section id="html">
+
+            <h2>HTML</h2>
+            <p>HTML estructura el contenido de una página.</p>
+
+            <!-- RETO: Volver al inicio -->
+            <a href="#inicio">Volver al inicio</a>
+
+        </section>
+
+        <section id="css">
+
+            <h2>CSS</h2>
+            <p>CSS define la presentación.</p>
+
+            <!-- RETO: Volver al inicio -->
+            <a href="#inicio">Volver al inicio</a>
+
+        </section>
+
+        <section id="navegadores">
+
+            <h2>Navegadores</h2>
+            <p>Interpretan y muestran las páginas web.</p>
+
+            <!-- RETO: Volver al inicio -->
+            <a href="#inicio">Volver al inicio</a>
+
+        </section>
+
+    </body>
+
+</html>
